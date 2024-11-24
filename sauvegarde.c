@@ -60,3 +60,4 @@ void charger(Partie *partie, const char *filename) {
 
     fclose(file); // Fermer le fichier
     printf("La partie a été chargée depuis le fichier %s.\n", filename);
+}
